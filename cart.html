@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <!--IE Compatibility Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--First Mobile Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cart</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+    <!--[if lt IE 9]-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <!--![endif]-->
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">Orient Kitchen</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="file:///C:/Users/Kimo%20Store/Desktop/Tasks/Resturant/resturant.html">Home</a></li>
+                        <li><a href="file:///C:/Users/Kimo%20Store/Desktop/Tasks/Resturant/resturant.html#" id="about-us">About</a></li>
+                        <li><a href="file:///C:/Users/Kimo%20Store/Desktop/Tasks/Resturant/resturant.html#" id="menue">Menue</a></li>
+                        <li><a href="file:///C:/Users/Kimo%20Store/Desktop/Tasks/Resturant/resturant.html#" id="contact">contact</a></li>
+                        <li class="active"><a href="file:///C:/Users/Kimo%20Store/Desktop/Tasks/Resturant/cart.html"><i class="fas fa-shopping-cart fa-lg"></i> cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="cart">
+        <h2 class="smooth">Your Cart</h2>
+        <div class="card-group">
+            <div class="card col-lg-4 col-md-5  col-sm-12  col-xs-10">
+                <div class="card-img-top" src="..." alt="Card image cap"></div>
+                <span class="remove" deleteProduct="#remove1"><i class="far fa-times-circle fa-lg"></i></span>
+                <div class="card-body">
+                    <h3 class="card-title">Beaf</h3>
+                    <h3 class="card-price">$<label class="price">20</label></h3>
+                    <span class="total-price" number="#1"></span>
+                    <p class="card-text">This is a longer card with supporting text below as a natural</p>
+                    <div class="input-group">
+                        <span class="minus"><i class="fas fa-minus"></i></span>
+                        <input type="text" class="spin" value="1">
+                        <span class="plus"><i class="fas fa-plus"></i></span>
+                        <!--                        <div class="report"> you choose <span class="count"></span> piecses</div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-5  col-xs-10">
+                <div class="card-img-top2" src="..." alt="Card image cap"></div>
+                <span class="remove" deleteProduct="#remove2"><i class="far fa-times-circle fa-lg"></i></span>
+                <div class="card-body">
+                    <h3 class="card-title">Meat</h3>
+                    <h3 class="card-price">$<label class="price">50</label></h3>
+                    <span class="total-price" number="#2"></span>
+                    <p class="card-text">This is a longer card with supporting text below as a natural</p>
+                    <div class="input-group">
+                        <span class="minus"><i class="fas fa-minus"></i></span>
+                        <input type="text" class="spin" value="1">
+                        <span class="plus"><i class="fas fa-plus"></i></span>
+                        <!--                   <div class="report"> you choose <span class="count"></span> piecses</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list card col-lg-4 col-md-5  col-sm-12  col-xs-10">
+            <h4 class="top">Your list</h4>
+            <div class="data" id="remove1">
+                <h3 class="title">Beaf</h3>
+                <h3 class="main-price">$<label class="price2" id="1">0</label></h3>
+            </div>
+            <div class="data" id="remove2">
+                <h3 class="title" id="remove2">Meat</h3>
+                <h3 class="main-price">$<label class="price2" id="2">0</label></h3>
+            </div>
+            <div class="line"></div>
+            <div class="price-detail">
+                <h3 class="Subtotal">Subtotal</h3>
+                <h3 class="subtotal-price">$<label class="price2">0</label></h3>
+            </div>
+            <div class="tax">
+                <h3 class="tax-p">Tax</h3>
+                <h3 class="value">10%</h3>
+            </div>
+            <div class="final"></div>
+            <div class="line"></div>
+
+            <div class="form-group has-warning has-feedback">
+                <div class="col-sm-5">
+                    <input type="text" class="form-control code" id="inputWarning">
+                </div>
+                <button type="button" class="btn btn-default insert">Add</button>
+            </div>
+            <div class="discount"></div>
+        </div>
+    </div>
+
+    <div class="footer container-fluid">
+
+        <div class="icons col-sm-8">
+            <span><i class="fab fa-twitter fa-fw"></i></span>
+            <span><i class="fab fa-facebook-f fa-fw"></i></span>
+            <span><i class="fab fa-instagram fa-fw"></i></span>
+        </div>
+        <div class="finish ">
+            <h4>Powered By IronDot </h4>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+
+</html>

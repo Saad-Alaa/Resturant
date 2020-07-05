@@ -1,0 +1,684 @@
+/*Start Global Rulez*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*End Global Rulez*/
+
+
+/*Header*/
+
+.header {
+    width: 100%;
+    height: 8em;
+}
+.navbar {
+    border-radius: 0;
+}
+.navbar-nav {
+    float: right;
+}
+.container-fluid .navbar-brand {
+    color: #c0a756;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+/*end header*/
+
+
+/*cart*/
+
+.cart {
+    width: 100%;
+    height: 55em;
+}
+.cart .card-group {
+    width: 60%;
+    height: 48em;
+    float: left;
+}
+.cart .smooth {
+    font-family: 'Great Vibes', cursive;
+    font-size: 62px;
+    color: #c0a756;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.card {
+    height: 17.3em;
+    border: 2px solid #BBB;
+    padding: 0;
+    margin: 1em;
+    width: 90%;
+}
+.cart .card .card-img-top {
+    width: 48%;
+    height: 17em;
+    background-image: url("images/2686166.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    background-position: center;
+}
+.cart .card .card-img-top2 {
+    width: 48%;
+    height: 17em;
+    background-image: url("images/2977.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    background-position: center;
+}
+.cart .remove {
+    width: 1.5em;
+    height: 4em;
+    position: absolute;
+    right: 0;
+    top: .3em;
+    cursor: pointer;
+}
+.cart .gallery .card span {
+    width: 1.5em;
+    height: 4em;
+    position: absolute;
+    right: 0;
+    top: .5em;
+    cursor: pointer;
+}
+.cart .card-body {
+    padding: 1em;
+    width: 50%;
+    height: 15em;
+    float: right;
+}
+.cart .card-title {
+    width: 75%;
+    float: left;
+    color: #c0a756;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+.cart .card-price {
+    width: 25%;
+    float: right;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.total-price {
+    display: none;
+}
+cart .card-text {
+    width: 100%;
+    height: 14em;
+}
+.cart .price {
+    font-weight: 100;
+}
+.cart .input-group {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.input-group .spin {
+    text-align: center;
+    height: 2em;
+    z-index: -1;
+    background: #FFF;
+    border: none;
+}
+.cart.spin:focus {
+    outline: none;
+}
+.cart .input-group .plus {
+    position: absolute;
+    top: 5px;
+    right: 1em;
+    color: #c0a756;
+    cursor: pointer;
+}
+.cart .input-group .minus {
+    position: absolute;
+    top: 5px;
+    left: 2em;
+    color: #c0a756;
+    cursor: pointer;
+}
+.cart .list {
+    width: 25%;
+    height: 39em;
+    background: #1c1b1b;
+    float: right;
+    margin: 1em;
+    margin-right: 4em;
+    border-radius: 1em;
+}
+.cart .list .top {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #c0a756;
+    text-align: center;
+}
+.cart .data {
+    width: 100%;
+    height: 5em;
+    padding: 10px;
+}
+.title {
+    width: 75%;
+    float: left;
+    color: #9d9d9d;
+    font-family: 'Titillium Web', sans-serif;
+}
+.main-price {
+    width: 25%;
+    float: right;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+.label {
+    font-weight: 500;
+}
+.line {
+    width: 90%;
+    height: .2em;
+    background: #c0a756;
+    margin-left: 11px;
+}
+.price-detail {
+    width: 90%;
+    height: 3em;
+    padding-left: 1em;
+}
+.Subtotal {
+    width: 75%;
+    float: left;
+    color: #c0a756;
+    font-family: 'Titillium Web', sans-serif;
+}
+.subtotal-price {
+    width: 15%;
+    float: right;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+.tax {
+    width: 90%;
+    height: 6em;
+    padding-left: 1em;
+}
+.tax-p {
+    width: 75%;
+    float: left;
+    color: #c0a756;
+    font-family: 'Titillium Web', sans-serif;
+}
+.value {
+    width: 17%;
+    float: right;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+.final {
+    width: 100%;
+    height: 2em;
+    color: #c0a756;
+    text-align: center;
+    font-size: 30px;
+}
+.discount {
+    width: 100%;
+    height: 2em;
+    color: #c0a756;
+    text-align: center;
+    font-size: 20px;
+}
+.form-group {
+    margin: 1em;
+    margin-left: 5em;
+}
+.btn-default {
+    background: #c0a756;
+    font-weight: 600;
+    margin: 0em;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 6em;
+    background: #1c1b1b;
+}
+.footer .icons {
+    width: 35%;
+    height: 3em;
+    padding-top: 2em;
+    float: left;
+}
+.footer .icons span {
+    display: inline;
+    padding: 12px;
+    border-radius: 100%;
+    font-size: 1.5em;
+    color: #fff;
+    background: #3D3C38;
+    transition: all 0.5s ease;
+}
+.footer .icons span:hover {
+    background: #C1A667;
+}
+.footer .finish {
+    width: 15%;
+    height: 5em;
+    float: right;
+}
+.footer .finish h4 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 2em;
+    color: #fff;
+}
+
+/*end footer*/
+
+. @media (max-width: 766px) {
+    .navbar-nav {
+        float: none;
+    }
+    .card {
+        width: 97%;
+    }
+    cart .card .card-img-top {
+        height: 20em;
+        background-size: 20em;
+    }
+    .cart .list {
+        float: none;
+    }
+}
+@media(min-width:320px) and (max-width:375px) {
+    .navbar-nav {
+        float: none;
+    }
+    /*cart*/
+    .cart {
+        height: 117em;
+    }
+    .cart .card-group {
+        width: 96%;
+        height: 68em;
+    }
+    .card {
+        width: 90%;
+        height: 32em;
+        margin-left: 1.5em;
+    }
+    .cart .remove {
+        color: #fff;
+    }
+    .cart .card-body {
+        padding: 1em;
+        width: 100%;
+        height: 16em;
+    }
+    .cart .card .card-img-top {
+        width: 100%;
+        height: 18em;
+        background-size: cover;
+    }
+    .cart .card .card-img-top2 {
+        width: 100%;
+        height: 18em;
+        background-size: cover;
+    }
+    cursor: pointer;
+    .cart .card-body {
+        height: 15em;
+    }
+    .cart .input-group {
+        height: 33px;
+        width: 100%;
+    }
+    .cart .input-group .plus {
+        top: 5px;
+        right: 5em;
+    }
+    .cart .input-group .minus {
+        top: 5px;
+        left: 5em;
+    }
+    .cart .list {
+        width: 85%;
+        margin-left: 3em;
+        margin-right: 2em;
+    }
+    .cart .list .top {
+        padding-top: 1em;
+    }
+    .cart .list {
+        width: 88%;
+        height: 39em;
+        margin-right: 1em;
+    }
+    .cart .data {
+        padding-left: 4em;
+    }
+    .line {
+        width: 88%;
+        margin-left: 25px;
+    }
+    .price-detail {
+        width: 90%;
+        height: 3em;
+        padding-left: 3em;
+    }
+    .Subtotal {
+        width: 75%;
+        padding-left: 10px;
+    }
+    .subtotal-price {
+        width: 17%;
+    }
+    .tax {
+        width: 90%;
+        height: 7em;
+        padding-left: 4em;
+    }
+    .form-group {
+        margin: 1em;
+    }
+    .footer .icons {
+        width: 55%;
+    }
+    .footer .finish {
+        width: 45%;
+    }
+    .footer .icons span {
+        padding: 6px;
+        font-size: 1.5em;
+    }
+    .footer .finish h4 {
+        margin-top: 3em;
+        font-size: 1em;
+        color: #fff;
+    }
+}
+@media(min-width:376px) and (max-width:430px) {
+    .navbar-nav {
+        float: none;
+    }
+    /*cart*/
+    .cart {
+        height: 115em;
+    }
+    .cart .remove {
+        color: #fff;
+    }
+    .cart .card-group {
+        width: 95%;
+        height: 66em;
+    }
+    .card {
+        width: 90%;
+        height: 31em;
+        margin-left: 2em;
+    }
+    .cart .card-body {
+        padding: 1em;
+        width: 100%;
+        height: 16em;
+    }
+    .cart .card .card-img-top {
+        width: 100%;
+        height: 18em;
+        background-size: cover;
+    }
+    .cart .card .card-img-top2 {
+        width: 100%;
+        height: 18em;
+        background-size: cover;
+    }
+    cursor: pointer;
+    .cart .card-body {
+        height: 15em;
+    }
+    .cart .input-group {
+        height: 33px;
+        width: 100%;
+    }
+    .cart .input-group .plus {
+        top: 5px;
+        right: 7em;
+    }
+    .cart .input-group .minus {
+        top: 5px;
+        left: 7em;
+    }
+    .cart .list {
+        width: 85%;
+        margin-left: 3em;
+        margin-right: 2em;
+    }
+    .cart .list .top {
+        padding-top: 1em;
+    }
+    .cart .list {
+        width: 88%;
+        height: 39em;
+        margin-right: 2em;
+    }
+    .cart .data {
+        padding-left: 4em;
+    }
+    .line {
+        width: 88%;
+        margin-left: 25px;
+    }
+    .price-detail {
+        width: 90%;
+        height: 3em;
+        padding-left: 3em;
+    }
+    .Subtotal {
+        width: 75%;
+        padding-left: 10px;
+    }
+    .subtotal-price {
+        width: 17%;
+    }
+    .tax {
+        width: 90%;
+        height: 7em;
+        padding-left: 4em;
+    }
+    .form-group {
+        margin: 1em;
+    }
+    .footer .icons {
+        width: 50%;
+    }
+    .footer .finish {
+        width: 30%;
+    }
+    .footer .icons span {
+        padding: 6px;
+        font-size: 1.5em;
+    }
+    .footer .finish h4 {
+        margin-top: 2em;
+    }
+}
+@media(min-width: 768px) and (max-width:991px) {
+    /*cart*/
+    .cart {
+        height: 85em;
+    }
+    .cart .card-group {
+        width: 90%;
+        height: 36em;
+        margin-left: 2em;
+    }
+    .card {
+        width: 95%;
+        height: 15.3em;
+    }
+    .cart .card .card-img-top {
+        width: 48%;
+        height: 15em;
+    }
+    .cart .card .card-img-top2 {
+        width: 48%;
+        height: 15em;
+    }
+    cursor: pointer;
+    .cart .card-body {
+        height: 15em;
+    }
+    .cart .list {
+        width: 85%;
+        /* float: left; */
+        margin-left: 3em;
+        margin-right: 4em;
+    }
+    .cart .list .top {
+        padding-top: 1em;
+    }
+    .cart .list {
+        width: 88%;
+        height: 39em;
+    }
+    .cart .data {
+        padding-left: 4em;
+    }
+    .line {
+        width: 88%;
+        margin-left: 25px;
+    }
+    .price-detail {
+        width: 90%;
+        height: 3em;
+        padding-left: 3em;
+    }
+    .Subtotal {
+        width: 75%;
+        padding-left: 10px;
+    }
+    .subtotal-price {
+        width: 17%;
+    }
+    .tax {
+        width: 90%;
+        height: 7em;
+        padding-left: 4em;
+    }
+    .form-group {
+        margin: 1em;
+    }
+    .footer .icons {
+        width: 50%;
+    }
+    .footer .finish {
+        width: 30%;
+    }
+    .footer .icons span {
+        padding: 6px;
+        font-size: 1.5em;
+    }
+    .footer .finish h4 {
+        margin-top: 2em;
+    }
+}
+@media (min-width: 992px) and (max-width: 1119px) {
+    .cart .list {
+        width: 30%;
+        height: 39em;
+        background: #1c1b1b;
+        float: right;
+        margin: 1em;
+        margin-right: 4em;
+        border-radius: 1em;
+    }
+    .cart .list .top {
+        font-family: 'Great Vibes', cursive;
+        font-size: 40px;
+        color: #c0a756;
+        text-align: center;
+    }
+    .cart .data {
+        width: 100%;
+        height: 5em;
+        padding: 10px;
+        padding-left: 2em;
+    }
+    .title {
+        width: 75%;
+        float: left;
+        color: #9d9d9d;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .main-price {
+        width: 25%;
+        float: right;
+        color: #fff;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .label {
+        font-weight: 500;
+    }
+    .line {
+        width: 90%;
+        height: .2em;
+        background: #c0a756;
+        margin-left: 11px;
+    }
+    .price-detail {
+        width: 90%;
+        height: 3em;
+        padding-left: 2em;
+    }
+    .Subtotal {
+        width: 75%;
+        float: left;
+        color: #c0a756;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .subtotal-price {
+        width: 22%;
+        float: right;
+        color: #fff;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .tax {
+        width: 90%;
+        height: 6em;
+        padding-left: 2em;
+    }
+    .tax-p {
+        width: 75%;
+        float: left;
+        color: #c0a756;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .value {
+        width: 17%;
+        float: right;
+        color: #fff;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .form-group {
+        margin: 1em;
+        margin-left: 5em;
+    }
+    .btn-default {
+        background: #c0a756;
+        font-weight: 600;
+        margin: 0;
+    }
+}

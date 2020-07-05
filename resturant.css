@@ -1,0 +1,329 @@
+/*Start Global Rulez*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*End Global Rulez*/
+
+
+/*Header*/
+
+.header {
+    width: 100%;
+    height: 43em;
+    position: relative;
+    background-color: #06060691;
+}
+.header::before {
+    content: '';
+    width: 100%;
+    height: 43em;
+    background-image: url(images/1820.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+.navbar {
+    border-radius: 0;
+    height: 4em;
+}
+.navbar-nav {
+    float: right;
+}
+.container-fluid .navbar-brand {
+    color: #c0a756;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    background: #222;
+    border-color: #101010;
+}
+.overlay {
+    width: 95%;
+    height: 33em;
+    margin-top: 4em;
+    margin-left: 1em;
+    padding-top: 12em;
+}
+.overlay h2 {
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    font-size: 60px;
+    text-align: center;
+    color: #c0a756;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/*end header*/
+
+
+/*about us*/
+
+.about-us {
+    width: 100%;
+    height: 50em;
+    padding-top: 37px;
+    padding-bottom: 0;
+}
+.about-us h2 {
+    text-align: center;
+}
+.about-us .intro {
+    text-align: center;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    color: #777777;
+    margin-bottom: 60px;
+}
+.about us .content {
+    width: 50%;
+}
+.about-us .smooth {
+    font-family: 'Great Vibes', cursive;
+    font-size: 62px;
+    color: #c0a756;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about-us h4 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    color: #777777;
+}
+.about-us span {
+    color: #c0a756;
+}
+.about-us p {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    color: #777777;
+}
+.about-us .food {
+    height: 35em;
+    background-image: url(images/2168.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*end about-us*/
+
+
+/*menue*/
+
+.menue {
+    width: 100%;
+    height: 45em;
+    position: relative;
+    padding-top: 27px;
+    padding-left: 0;
+    padding-bottom: 1em;
+}
+.menue::before {
+    content: '';
+    width: 100%;
+    height: 45em;
+    background-image: url(images/549556-PJZUEM-313.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+.menue h2 {
+    text-align: center;
+    padding-top: .5em;
+}
+.menue .sort {
+    width: 20%;
+    height: 4em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #887025;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/*end menue*/
+
+
+/*contact-us*/
+
+.contact {
+    width: 100%;
+    height: 35em;
+    background: #141313;
+}
+.contact h2 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 2em;
+}
+.contact p {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #777777;
+}
+.contact span {
+    color: #887025;
+    margin-right: 5px;
+}
+.contact .form-control {
+    background: #2C2A2A;
+    border: none;
+}
+.contact .form-control:focus {
+    box-shadow: 0 0 10px #887025;
+}
+
+/*end contact*/
+
+.contact iframe {
+    width: 100%;
+    height: 22em;
+}
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(187, 187, 187, 0.8);
+    display: none;
+}
+.popup .inner {
+    width: 350px;
+    height: 280px;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -140px;
+    border-radius: 5px;
+}
+.popup .inner .text {
+    width: 100%;
+    height: 6em;
+    margin-top: 2em;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #777777;
+}
+.popup .inner .gatogery {
+    width: 20%;
+    height: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #887025;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 6em;
+    background: #1c1b1b;
+}
+.footer .icons {
+    width: 35%;
+    height: 3em;
+    padding-top: 2em;
+    float: left;
+}
+.footer .icons span {
+    display: inline;
+    padding: 12px;
+    border-radius: 100%;
+    font-size: 1.5em;
+    color: #fff;
+    background: #3D3C38;
+    transition: all s ease;
+}
+.footer .icons span:hover {
+    background: #C1A667;
+}
+.footer .finish {
+    width: 15%;
+    height: 5em;
+    float: right;
+}
+.footer .finish h4 {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 2em;
+    color: #fff;
+}
+
+/*end footer*/
+
+
+/*scroll  to top*/
+
+.scroll-to-top {
+    width: 3em;
+    height: 3em;
+    background: #C1A667;
+    padding: 7px 8px;
+    color: #fff;
+    display: block;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    display: none;
+}
+.scroll-to-top:hover {
+    background: #ffff;
+    color: #C1A667;
+}
+@media (max-width: 766px) {
+    .navbar-nav {
+        float: none;
+    }
+    .about-us {
+        height: 92em;
+    }
+    .contact {
+        height: 45em;
+    }
+    .footer .icons {
+        width: 55%;
+    }
+    .footer .finish {
+        width: 45%;
+    }
+    .footer .icons span {
+        padding: 6px;
+        font-size: 1.5em;
+    }
+    .footer .finish h4 {
+        margin-top: 2em;
+    }
+}
